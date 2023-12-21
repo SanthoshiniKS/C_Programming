@@ -12,9 +12,10 @@ int main()
 }
 
 /* 
-Output:
+Input:
 5
 10
-num1=5
-num2=10
+Output:
+num1=10
+num2=5
 */
