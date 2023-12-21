@@ -26,14 +26,18 @@ int main()
 /*
 2x^3-x^2+3x+4
 Output 1:
+Input:
 Enter the Degree: 3
 Enter the Coefficients: 2 -1 3 4
 Enter the value of x: 2
+Output:
 P(2) = 22
 
 Output 2:
+Input:
 Enter the Degree: 3
 Enter the coefficient:2 0 3 1
 Enter the value of x: 2
+Output:
 P(2) = 23
 */
