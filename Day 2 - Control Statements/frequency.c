@@ -19,8 +19,6 @@ int main()
     	else{
           if(c>1){
              if(arr[i-1]==arr[0]) 
-                printf("%d->%d",a,c);
-            else
                 printf(", %d->%d",a,c);
          }
          a=arr[i];
