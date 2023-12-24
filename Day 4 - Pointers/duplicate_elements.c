@@ -48,8 +48,14 @@ int main()
     scanf("%d",&n);
     int* arr=malloc(n*sizeof(int));
     printf("Enter the elements of array:");
-    for (int i=0;i<n;i++)
+    for (int i=0;i<n;i++){
         scanf("%d",&arr[i]);
+        if(arr[i]>n-1)
+        {
+            printf("\nThe elements in the array should be from 0 to n-1");
+            return 0;
+        }
+    }
     sort(arr, n);
     int* p=duplicate(arr,n);
     printf("Duplicate elements: ");
@@ -58,7 +64,7 @@ int main()
         printf("-1");
         return 0;
     }
-    for (int i=0;i<n-1;i++){
+    for (int i=0;i<n;i++){
         if (p[i]!=0)
             printf("%d ",p[i]);
     }
